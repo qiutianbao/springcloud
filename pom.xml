@@ -70,6 +70,10 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka-server</artifactId>
         </dependency>
+        <!--   监控，以了解程序运行情况
+               通过http://ip:端口/health进行访问查询，通过http://ip:端口/info进行查询项目配置
+               查询info的配置在properties文件中进行详细配置，要显示的信息
+        -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
